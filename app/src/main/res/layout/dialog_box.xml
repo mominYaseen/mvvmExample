@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    >
+    <EditText
+        android:id="@+id/dialog_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        />
+    <EditText
+        android:id="@+id/dialog_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/dialog_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choose image"
+
+        />
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:id="@+id/dialog_image"
+        />
+    <Button
+        android:id="@+id/dialog_add_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add contact"
+        />
+</LinearLayout>
